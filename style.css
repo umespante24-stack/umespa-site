@@ -162,3 +162,7 @@ footer {
   font-weight: bold;
   color: #ffcc00 !important;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
