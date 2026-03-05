@@ -7,7 +7,7 @@
 }
 
 * {
-  margin: 10px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -43,7 +43,7 @@ nav a:hover {
 }
 
 .hero {
-margin-bottom:20px;
+margin-bottom:10px;
   background: linear-gradient(135deg, var(--azul), var(--vermelho));
   color: white;
   text-align: center;
@@ -52,11 +52,11 @@ margin-bottom:20px;
 
 .hero h1 {
   font-size: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .btn {
-margin-bottom:20px;
+margin-bottom:25px;
   background: var(--dourado);
   color: white;
   padding: 12px 28px;
