@@ -42,32 +42,53 @@ nav a:hover {
   color: var(--dourado);
 }
 
-.hero {
+.hero{
 margin-bottom:10px;
-  background: linear-gradient(135deg, var(--azul), var(--vermelho));
-  color: white;
-  text-align: center;
-  padding: 120px 20px;
+
+background:
+linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+url("img/fundo-umespa.jpg");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+color:white;
+text-align:center;
+padding:160px 20px;
+position:relative;
 }
 
-.hero h1 {
-  font-size: 40px;
-  margin-bottom: 20px;
+.hero h1{
+font-size:56px;
+font-weight:700;
+letter-spacing:2px;
+margin-bottom:15px;
 }
 
-.btn {
+.hero p{
+font-size:20px;
+max-width:700px;
+margin:auto;
 margin-bottom:25px;
-  background: var(--dourado);
-  color: white;
-  padding: 12px 28px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.3s;
+opacity:0.95;
 }
 
-.btn:hover {
-  background: var(--vermelho);
+.btn{
+margin-bottom:25px;
+background:var(--dourado);
+color:white;
+padding:14px 32px;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+display:inline-block;
+}
+
+.btn:hover{
+background:var(--vermelho);
+transform:translateY(-2px);
 }
 
 .section {
