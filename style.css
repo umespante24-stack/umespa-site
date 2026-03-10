@@ -46,19 +46,19 @@ nav a:hover {
 margin-bottom:10px;
 
 background:
-linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-url("img/fundo-umespa.png");
+linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+url("img/fundo-umespa.jpg");
 
-background-size:cover;
+background-size:contain;
 background-position:center;
 background-repeat:no-repeat;
 
+background-color:#0a1f62;
+
 color:white;
 text-align:center;
-padding:160px 20px;
-position:relative;
+padding:140px 20px;
 }
-
 .hero h1{
 font-size:56px;
 font-weight:700;
