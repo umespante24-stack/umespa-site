@@ -168,3 +168,68 @@ footer {
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/* ===== MENU MOBILE ===== */
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+
+@media(max-width: 900px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: var(--azul);
+        flex-direction: column;
+        width: 220px;
+        display: none;
+        padding: 20px;
+        border-radius: 0 0 0 10px;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+/* ===== ANIMAÇÕES ===== */
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===== BOTÃO WHATSAPP ===== */
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 28px;
+    padding: 15px 18px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 999;
+    transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
