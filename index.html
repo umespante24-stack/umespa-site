@@ -1,3 +1,22 @@
+<script>
+function toggleMenu() {
+    document.getElementById("menu").classList.toggle("active");
+}
+
+// Animação ao rolar
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        }
+    });
+});
+
+document.querySelectorAll('.section').forEach(section => {
+    section.classList.add("fade-in");
+    observer.observe(section);
+});
+</script>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -26,9 +45,11 @@
 <section class="hero">
 <h1>União Municipal dos Estudantes de Paulo Afonso</h1>
 <p>Representando, fortalecendo e organizando o movimento estudantil secundarista do município.</p>
-
+<p>Nada Para Nós, Sem Nós!</p>
+ 
 <section class="hero">
 <a href="filiacao.html" class="btn">Seja Filiado</a>
+  <a href="dne.html" class="btn" style="background: var(--amarelo); color: black;">Emitir DNE</a>
 </section>
   
 
