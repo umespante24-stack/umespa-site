@@ -342,3 +342,26 @@ margin-bottom:5px;
 tr:hover{
 background:#f5f5f5;
 }
+
+.entidade-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.btn-diario {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #d71920;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-diario:hover {
+  background: #b5161c;
+}
